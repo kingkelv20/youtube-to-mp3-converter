@@ -1,0 +1,19 @@
+{
+  "name": "youtube-to-mp3-converter",
+  "version": "1.0.0",
+  "description": "A web application that converts YouTube videos to MP3 files and allows the user to download the MP3 file to their local machine.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.9.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
+
